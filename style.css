@@ -1,0 +1,1509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.sticker {
+  background-color: #00E6B8;
+  color: #192550;
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+  position:fixed;
+  bottom:-20px;
+  right:10px;
+  z-index: 1;
+}
+
+.sticker2 {
+  background-color:rgb(7, 43, 61);
+  color: white;
+  display: inline-block;
+  transform: rotate(90deg);
+  width: 150px;
+  height: 50px;
+  position:fixed;
+  top: 150px;
+  right:-70px;
+}
+
+.sticker2 > p{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative; 
+  bottom: 3px;  
+  transform: rotate(180deg);
+  
+}
+
+.sticker > p{
+  color: #192550;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+  position: relative;
+  top: -5px;
+  z-index: 3;
+}
+.fa-comment-dots{
+  position: relative;
+  top: 17px;
+  left: 15px;
+  font-size: 17px;
+}
+  
+
+h4{
+  font-family: "poppins", serif;
+}
+
+nav ul{list-style: none;
+
+}
+
+nav ul li a {list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: rgb(17, 6, 52);
+    height: 60px;
+   
+}
+
+nav ul .left li{
+    float: left;
+    margin-inline:10px;
+    
+    position: relative;
+    margin-top: 20px;
+    left: 50px;
+    color: white;
+    font-size: 12px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav ul .right li{
+    float: right;
+    margin-inline:10px;
+    
+    position: relative;
+    margin-top: 20px;
+    right: 50px;
+    color: white;
+    font-size: 12px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+nav ul li .btn{
+    background-color: white;
+    color: rgb(10, 7, 7);
+    padding: 10px 20px 10px 20px;
+    width: 120px;
+    border-radius: 25px;
+    border: 0;
+    top: -10px;
+    right: -10px;
+    position: relative;
+    font-size: 14px;}
+
+    .image{
+       height: 1100px;
+       background-size:cover;
+       
+       background-position: center;
+       width: 100%;
+       background-image: url(Images/lady-dancing.jpg);
+       max-height: 995px;
+        overflow: hidden;
+       
+       
+       
+       
+    }
+    .image-overlay{
+        height: 1100px;
+        width: 100%;
+        background-color: #0e0e29;
+        opacity: 0.5;
+        max-height: 995px;
+        overflow: hidden;
+       }
+
+       .logo{
+        float: left;
+        position: relative;
+        top: -1350px;
+        height: 200px;
+        width: 400px;
+        left: -30px;
+       
+        
+       }
+
+       nav ul .line li{
+       position: relative;
+       top: -1280px;
+       display: inline;
+       margin-inline: 10px;
+       float: right;
+       right: 70px;
+       font-size: 17px;
+       font-family: "Poppins", serif;
+       font-weight: 500;
+       font-style: normal;
+       }
+
+.message{
+ display:block;
+ margin-left: 580px;
+ position: relative;
+ top: -675px;
+ color: white;
+ }
+
+  h3{
+    font-size: 65px;
+    line-height: 0.95;
+    font-family: "Poppins", serif;
+       font-weight: 700;
+       font-style: normal;
+       padding-bottom: 20px;
+  }
+
+  p{
+    font-family: poppins, serif;
+    font-size: 25px;
+    font-weight: 400;
+       font-style: normal;
+       padding-bottom: 20px;
+       
+  }
+  
+  .btn2{
+    background-color: rgb(35, 231, 172);
+    color: rgb(9, 1, 57);
+    padding: 15px 20px 15px 20px;
+    width: 270px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 17px;
+    font-family: "Poppins", serif;
+       font-weight: 500;
+       font-style: normal;
+       
+  }
+
+  .fa-arrow-down{
+    color: white;
+    position: relative;
+    left:300px;
+    top: 300px;
+    
+   
+  }
+  
+  .fa-arrow-down{
+    animation: MoveUpDown 5s linear infinite;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+  }
+  @keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(100px);
+    }
+  }
+
+  .healthcare{
+    text-align-last:center;
+    position: relative;
+    left: -175px;
+    font-size: 25px;
+    top: -270px;
+    color: rgb(6, 6, 53);
+  }
+
+  .health{
+    text-align-last:center;
+    position: relative;
+    top: -270px;
+    font-size: 50px;
+    color: rgb(6, 6, 53);
+  }
+
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 1250px;
+    left: 500px;
+    
+    
+    
+    
+  }
+  .flex-container > div{
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+
+  .one{
+    height: 285px;
+    width: 350px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    
+    
+  }
+
+  .two{
+    height: 285px;
+    width: 350px;
+    background-color: rgb(25, 203, 144);
+    border-radius: 5px;
+    
+
+  }
+
+  .three{
+    height: 285px;
+    width: 350px;
+    background-color: #d1d5fd;
+    
+  }
+
+  .flex-container > div > h2{
+    color: white;
+    font-family: poppins, serif;
+    font-size: 120px;
+    display: inline;
+    position: relative;
+    top: -25px;
+    left: 240px;
+  }
+
+  .flex-container > div > h4{
+    color: rgb(7, 3, 63);
+    font-family: poppins, serif;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: -35px;
+    line-height: 1.0;
+    
+}
+
+.flex-container > div > p{
+    color: rgb(7, 3, 63);
+    font-family: poppins, serif;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    justify-self: start;
+    top: -55px;
+    left: 15px;
+    
+}
+
+.fa-arrow-right-long{
+  position: relative;
+  left: 15px;
+  top: 2px;
+  
+}
+
+div .two > h4{
+position: relative;
+left: -53px;
+}
+
+div .three > h4{
+  position: relative;
+  left: -56px;
+  }
+  div .one > h4{
+    position: relative;
+    left: -30px;
+    }
+  
+    .line3{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+
+.line3 > button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line3 > .button1 > p{
+  position: relative;
+  top: 170px;
+  left: -400px;
+  font-size: 15px;
+  color: rgb(7, 7, 63);
+}
+
+
+
+.button1{
+  background-color: rgb(6, 6, 71);
+    color: white;
+    padding: 15px 20px 15px 20px;
+    font-size: 17px;
+    width: 280px;
+    border-radius: 25px;
+    border: 0;
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+
+.line3 .button1 .fa-solid{
+  color: white;
+  position: relative;
+  top: 1px;
+  left: 6px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 1800px;
+  left: 500px;}
+
+  .container > div{
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid rgba(181, 181, 181, 0.941);
+    border-radius: 20px;
+  }
+
+  .four{
+    height: 365px;
+    width: 350px;
+    background-color:transparent;
+    border-radius: 5px;
+    
+    
+  }
+
+  .five{
+    height: 365px;
+    width: 350px;
+    background-color:transparent;
+    border-radius: 5px;
+    
+
+  }
+
+  .six{
+    height: 365px;
+    width: 350px;
+    background-color:transparent;
+    
+  }
+
+  .container > div > p{
+    color: rgb(7, 3, 63);
+    font-family: poppins, serif;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    justify-self: start;
+    top: 30px;
+    left: 15px;
+    
+}
+
+.container > div > .arrow{
+  color: rgb(7, 3, 63);
+  font-family: poppins, serif;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  justify-self: start;
+  top: 60px;
+  left: -15px;
+  
+}
+
+.circle{
+  height: 50px;
+  width: 50px;
+  background-color: #00E6B8;;
+  border-radius: 50%;
+  border: 0;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+
+
+
+.fa-check{
+  font-size:40px;
+  color: white;
+  position:relative;
+  top: -40px;
+  left: 32px;
+}
+
+ .arrow  .fa-arrow-right-long{
+  position: absolute;
+  top:155px;
+  left: 135px;
+ }
+
+ .fast  .fa-arrow-right-long{
+  position: absolute;
+  top:129px;
+  left: 150px;
+ }
+
+  .four > .circle > .fa-check{
+  position: relative;
+  top: -50px;
+  color: aqua;
+
+ }
+
+ .healthcare2{
+  text-align-last:center;
+  position: relative;
+  left: -30px;
+  font-size: 25px;
+  top: 650px;
+  color: rgb(6, 6, 53);
+}
+
+.trusted{
+  text-align-last:center;
+  position: relative;
+  top: 670px;
+  font-size: 50px;
+  color: rgb(6, 6, 53);
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 2400px;
+  left: 500px;}
+
+  .flex > div{
+    margin: 15px;
+    padding: 20px;
+    border: 0;
+    border-radius: 20px;
+  }
+
+  .seven{
+    height: 650px;
+    width: 350px;
+    background-color: rgb(171, 247, 232);
+    border-radius: 5px;
+    
+    
+  }
+
+  .eight{
+    height: 650px;
+    width: 350px;
+    background-color: rgb(171, 247, 232);
+    border-radius: 5px;
+    
+
+  }
+
+  .nine{
+    height: 650px;
+    width: 350px;
+    background-color:rgb(171, 247, 232);
+    
+  }
+
+  .flex > div > p{
+    position: relative;
+    top: 50px;
+    font-size: 23px;
+    color: rgb(25, 37, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+   
+    
+  }
+
+  .flex > div > .tiny{
+    position: relative;
+    display: inline-flex;
+    font-size: 17px;
+    left: 30px;
+  }
+
+  .flex > div > .pilot{
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    top: 75px;
+    left: -45px;
+    
+  }
+
+  .line5{
+    display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 1320px;
+left: -150px;
+  }
+  .line5 > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .line5 .button1 .fa-solid{
+    color: white;
+    position: relative;
+    top: 1px;
+    left: 6px;
+  }
+
+  .board{
+    width: 100%;
+    height:1700px;
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    background-color: rgb(171, 247, 232);
+    position: relative;
+    top: 1450px;
+  }
+
+  div.gallery1 {
+    margin: 10px;
+    padding-bottom: 10px;
+    border:0;
+    border-radius: 20px;
+    width: 545px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    left: 570px;
+    top: 90px;
+    }
+
+    div.gallery2 {
+      margin: 10px;
+      padding-bottom: 10px;
+      border:0;
+      border-radius: 20px;
+      width: 545px;
+      height: 800px;
+      background-color: white;
+      position: relative;
+      left: 1150px;
+      top: -720px;
+     
+      }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.gallery1 img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  div.gallery2 img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .board > h3{
+    color:rgb(25, 37, 80) ;
+    font-size: 50px;
+    position: relative;
+   left: 790px;
+   top: 70px;
+  }
+
+  .desc > h3{
+font-size: 30px;
+text-align-last:left ;
+color:rgb(25, 37, 80) ;
+line-height: 1.5;
+position: relative;
+left: 30px;
+top: 20px;
+  }
+
+  .desc > p{
+    color:rgb(25, 37, 80) ;
+    font-size:16px;
+    text-align-last: left; 
+    position: relative;
+    top: 10px;
+    left: 30px;
+
+  }
+
+  .desc > .buttondental{
+    background-color:transparent;
+    color: rgb(25, 37, 80);
+    padding: 17px 20px 17px 20px;
+    font-size: 17px;
+    width: 260px;
+    border-radius: 30px;
+    border: 2px solid rgb(25, 37, 80);
+    position: relative;
+    left:-100px ;
+    top: 100px;
+  }
+
+  .desc > .buttongp{
+    background-color:transparent;
+    color: rgb(25, 37, 80);
+    padding: 17px 20px 17px 20px;
+    font-size: 17px;
+    width: 320px;
+    border-radius: 30px;
+    border: 2px solid rgb(25, 37, 80);
+    position: relative;
+    top: 70px;
+    left: -70px;
+  }
+ 
+  .buttongp > b{
+    position: relative;
+    left: -10px;
+  }
+
+  .buttondental > b{
+    position: relative;
+    left: -10px;
+  }
+
+  .buttongp > b > .fa-arrow-right-long{
+    position: relative;
+    top: 1px;
+    left: 7px;
+  }
+
+  .buttondental > b > .fa-arrow-right-long{
+    position: relative;
+    top: 1px;
+    left: 7px;
+  }
+
+  .enjoy{
+    position: relative;
+    top: -640px;
+    left: 580px;
+  }
+
+  .enjoy > h3{
+    font-size: 50px;
+    color:rgb(25, 37, 80) ;
+    line-height: 1.2;
+  }
+  .enjoy > p{
+    font-size: 24px;
+    color:rgb(25, 37, 80) ;
+    
+  }
+
+  .enjoy > button{
+    background-color:rgb(25, 37, 80);
+    color:white ;
+    padding: 17px 20px 17px 20px;
+    font-size: 17px;
+    width: 270px;
+    border-radius: 30px;
+    border: 0;
+    
+    position: relative;
+    
+  }
+
+  .enjoy > b{
+    position: relative;
+    left: -10px;
+  }
+
+  .rewards > b{
+    position: relative;
+    left: -10px;
+  }
+
+  .rewards > b > .fa-arrow-right-long{
+    position:relative;
+    top: 2px;
+    left: 7px;
+  }
+
+  .cotswold1{
+    position: relative;
+    top: 1000px;
+    float: right;
+    right: 570px;
+    height: 130px;
+    width: 217px;
+    background-color: white;
+    border-radius: 65px;
+    border: 0;
+    z-index: 0;
+    box-shadow: 1px 1px 10px rgb(212, 211, 211);
+
+  }
+
+  .cotswold{
+    position: relative;
+    top: -5px;
+    left: 40px;
+    height: 130px;
+    width: 130px;
+  }
+
+  .mygym1{
+    position: relative;
+    top: 820px;
+    float: right;
+    right: 430px;
+    height: 130px;
+    width: 217px;
+    background-color: white;
+    border-radius: 65px;
+    border: 0;
+    z-index:1;
+    box-shadow: 1px 1px 10px rgb(212, 211, 211);}
+
+    .mygym{
+      position: relative;
+      top: 30px;
+      left: 40px;
+      height: 60px;
+      width: 130px;
+    }
+
+    .fitbit1{
+      position: relative;
+      top: 920px;
+      float: right;
+      right: 350px;
+      height: 130px;
+      width: 217px;
+      background-color: white;
+      border-radius: 65px;
+      border: 0;
+      z-index:0;
+      box-shadow: 1px 1px 10px rgb(212, 211, 211);}
+  
+      .fitbit{
+        position: relative;
+        top: 45px;
+        left: 50px;
+        height: 40px;
+        width: 110px;
+      }
+
+      .snowrock1{
+        position: relative;
+        top: 1090px;
+        float: right;
+        right: 50px;
+        height: 130px;
+        width: 217px;
+        background-color: white;
+        border-radius: 65px;
+        border: 0;
+        z-index:1;
+        box-shadow: 1px 1px 10px rgb(212, 211, 211);}
+    
+        .snowrock{
+          position: relative;
+          top: 15px;
+          left: 50px;
+          height: 100px;
+          width: 110px;
+        }
+
+        .spabreaks1{
+          position: relative;
+          top: 1195px;
+          float: right;
+          right: -70px;
+          height: 130px;
+          width: 217px;
+          background-color: white;
+          border-radius: 65px;
+          border: 0;
+          z-index:0;
+          box-shadow: 1px 1px 10px rgb(212, 211, 211);}
+      
+          .spabreaks{
+            position: relative;
+            top: 15px;
+            left: 50px;
+            height: 100px;
+            width: 110px;
+          }
+
+          .virgin1{
+            position: relative;
+            top: 1250px;
+            float: right;
+            right: -530px;
+            height: 130px;
+            width: 217px;
+            background-color: white;
+            border-radius: 65px;
+            border: 0;
+            z-index:0;
+            box-shadow: 1px 1px 10px rgb(212, 211, 211);}
+        
+            .virgin{
+              position: relative;
+              top: 30px;
+              left: 50px;
+              height: 60px;
+              width: 110px;
+            }
+
+            .gallery3{
+              position: relative;
+              top: 1400px;
+              left: 500px;
+              width: 1128px;
+              height: 662px;
+              background-color:#192550;
+              border-radius: 20px;
+              border: 0;
+              display:flex ;
+              flex-direction: row-reverse;
+              justify-content: center;
+              justify-items: center;
+              align-items: center;
+
+            }
+
+            
+            .holding:hover{
+              height: 725px;
+              width: 534px;
+            }
+            .mobile > h3{
+              color: white;
+            }
+
+            .mobile > p{
+              color: #00E6B8;
+            }
+
+            .apps{
+              background-color:#00E6B8;
+              color: rgb(25, 37, 80);
+              padding: 18px 20px 18px 20px;
+              font-size: 17px;
+              width: 260px;
+              border-radius: 30px;
+              border:0;
+            }
+            .apps:hover{
+              background-color:#0e9479;
+              color: white;
+              padding: 18px 20px 18px 20px;
+              font-size: 17px;
+              width: 260px;
+              border-radius: 30px;
+              border:0;
+            }
+
+            .apps > b > .fa-arrow-right-long{
+              color:rgb(25, 37, 80);
+              position: relative;
+              top: 2px;
+              left: 6px;
+              
+            }
+            .apps > b > .fa-arrow-right-long:hover{
+              color:white;
+              position: relative;
+              top: 2px;
+              left: 6px;
+              
+            }
+
+            .gallery4{
+              position: relative;
+              top: 1480px;
+              left: 500px;
+              width: 1128px;
+              height: 290px;
+              background-color:#40ecca;
+              border-radius: 20px;
+              border: 0;
+              display:flex ;
+              flex-direction: row-reverse;
+              justify-content: center;
+              justify-items: center;
+              align-items: center;
+              align-self: flex-start;
+              
+
+            }
+            .join{
+              margin-left: 20px;
+              position: relative;
+              top: 40px;
+              left: -200px;
+              
+            }
+
+          
+          .join > h3{
+            color: rgb(25, 37, 80);
+            font-size: 55px;
+            line-height: 1.2;
+          }
+
+          .join > p{
+            color: rgb(25, 37, 80);
+            font-size: 24px;
+          }
+          .get{
+            background-color:rgb(25, 37, 80);
+            color: white;
+            padding: 18px 20px 18px 20px;
+            font-size: 17px;
+            width: 260px;
+            border-radius: 30px;
+            border:0;
+            position: relative;
+            left: 750px;
+            top: -100px;
+          }
+
+          .get > b > .fa-arrow-right-long{
+            color:white;
+            position: relative;
+            top: 2px;
+            left: 6px;
+            
+            
+          }
+
+          .mind{
+            color: rgb(25, 37, 80);
+            position: relative;
+            top: 1580px;
+            font-size: 50px;
+            left: 500px;
+          }
+
+          .healthbox{
+            position: relative;
+            top: 1600px;
+            left: 100px;
+            display:flex;
+            justify-content:center;
+            align-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+           }
+
+           .healthbox > .mental1 > .image-overlay1 > button{
+            color: white;
+            background-color: #00E6B8;
+            border-radius: 10px;
+            width: 20px;
+           }
+
+
+        .image1{
+          height: 690px;
+          width: 370px;
+          position: relative;
+          top: 30px;
+          border-radius: 20px;
+          background-image: url(Images/two-ladies-enjoying-a-gym-exercise-class-414x552px.webp);
+          background-repeat: no-repeat, no-repeat;
+          background-size:cover;
+          background-position: center;
+          filter: brightness(50%);
+          
+          
+        }
+
+        .mental2{
+          height: 690px;
+          width: 370px;
+          border: 0 ;
+          border-radius: 20px;
+          background-color: #d1d5fd;
+          object-fit: cover;
+          position: relative;
+          top: -200px;
+
+          
+        }
+
+        .image2{
+          height: 690px;
+          width: 370px;
+           
+          border-radius: 20px;
+          background-image: url(Images/man-anxiously-looking-at-mobile-phone-feature-552x414px.jpg);
+          background-repeat: no-repeat, no-repeat;
+          background-size:cover;
+          background-position: center;
+          filter: brightness(50%);
+          
+          
+        }
+        .physical{
+          height: 690px;
+          width: 370px;
+          border: 0 ;
+          border-radius: 20px;
+          background-color: rgb(171, 247, 232);
+          position: relative;
+          top: -200px;
+          
+          
+        }
+
+        .image-overlay1{
+          height: 690px;
+          width: 100%;
+          background-color: #313172;
+          opacity: 0.5;
+          max-height: 995px;
+          overflow: hidden;
+          border-radius: 20px;
+         }
+        
+        .mental1 img {
+          width: 100%;
+          height: auto;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;}
+
+          .mental2 img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;}
+
+            .mental3 img {
+              width: 100%;
+              height: auto;
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;}
+
+              .physical img {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;}
+
+        .mental1 > h3{
+          
+          font-size: 32px;
+          position: relative;
+          left: 40px;
+          top: -580px;
+          color:white;
+          line-height: 1.3;
+        }
+
+        .mental1 > p{
+          color:#1c9d83 ;
+          font-size: 17px;
+          position: relative;
+          top: -550px;
+          left: 40px;
+          font: bold;
+          font-weight: 500;
+          
+        }
+
+        .stick > p{
+          font-size: 16px;
+          position: relative;
+          top: -450px;
+          left: 40px;
+          color: white;
+        }
+        .stick > .fa-arrow-right-long{
+          font-size: larger;
+          position: relative;
+          color: white;
+          top: -495px;
+          left: 280px;
+        }
+
+        .mental2 > h3{
+          color:rgb(25, 37, 80) ;
+          font-size: 32px;
+          
+            position: relative;
+            left: 40px;
+            top: -40px;
+            
+            line-height: 1.3;
+          }
+        
+
+        .mental2 > p{
+          color:#1c9d83 ;
+          font-size: 17px;
+          position: relative;
+          top: -10px;
+          left: 40px;
+          font: bold;
+          font-weight: 500;
+          
+        }
+        .anxiety > p{
+          font-size: 16px;
+          position: relative;
+          top: -50px;
+          left: 40px;
+          color: rgb(25, 37, 80);
+          
+        }
+        .anxiety > .fa-arrow-right-long{
+          font-size: larger;
+          position: relative;
+          color: rgb(25, 37, 80);
+          top: -89px;
+          left: 270px;
+        }
+
+        .mental3 > h3{
+          color:rgb(25, 37, 80) ;
+          font-size: 32px;
+          
+            position: relative;
+            left: 50px;
+            top: -600px;
+            color:white;
+            line-height: 1.3;
+          }
+
+          .mental3 > p{
+            color:#1c9d83 ;
+            font-size: 17px;
+            position: relative;
+            top: -580px;
+            left: 50px;
+            font: bold;
+            font-weight: 500;
+            
+          }
+
+          .appointment > p{
+            font-size: 16px;
+            position: relative;
+            top: -430px;
+            left: 40px;
+            color: white;
+            
+          }
+
+          .appointment > .fa-arrow-right-long{
+            font-size: larger;
+            position: relative;
+            color: white;
+            top: -470px;
+            left: 270px;
+          }
+       
+        .physical > h3{
+          color:rgb(25, 37, 80) ;
+          font-size: 32px;
+          
+            position: relative;
+            left: 40px;
+            top: -40px;
+            
+            line-height: 1.3;
+        }
+
+        .physical > p{
+          color:#1c9d83 ;
+          font-size: 17px;
+          position: relative;
+          top: -10px;
+          left: 40px;
+          font: bold;
+          font-weight: 500;
+          
+        }
+        .dentist > .fa-arrow-right-long{
+          font-size: larger;
+          position: relative;
+          color: rgb(25, 37, 80);
+          top: -50px;
+          left: 200px;
+        }
+
+        .dentist > p{
+          font-size: 16px;
+          position: relative;
+          top: -10px;
+          left: 40px;
+          color: rgb(25, 37, 80);
+          
+        }
+
+        .btn4{
+          background-color: #1e937b;
+          padding: 8px 9px 8px 9px;
+          border-radius: 20px;
+          color: white;
+          width: 130px;
+          font: bold;
+          border: 0;
+          position: relative;
+          top: -220px;
+          left: 45px;
+        }
+
+        .btn1{
+          background-color: #1e937b;
+          padding: 8px 9px 8px 9px;
+          border-radius: 20px;
+          color: white;
+          width: 125px;
+          font: bold;
+          border: 0;
+          position: relative;
+          top: -590px;
+          left: 40px;
+          
+        }
+
+        
+        .btn3{
+          background-color: #1e937b;
+          padding: 8px 9px 8px 9px;
+          border-radius: 20px;
+          color: white;
+          width: 130px;
+          font: bold;
+          border: 0;
+          position: relative;
+          top: -630px;
+          left: 55px;
+        }
+
+        .btn5{
+          background-color: #1e937b;
+          padding: 8px 9px 8px 9px;
+          border-radius: 20px;
+          color: white;
+          width: 130px;
+          font: bold;
+          border: 0;
+          position: relative;
+          top: -220px;
+          left: 50px;
+        }
+
+        .btnn{
+          background-color:rgb(25, 37, 80);
+          color: white;
+          padding: 17px 20px 17px 20px;
+          font-size: 17px;
+          width: 350px;
+         font: bolder;
+          border-radius: 30px;
+          border: 0;
+          position: relative;
+          left:450px ;
+          top: 1250px;
+  }
+
+  .footer{
+  height: 672px;
+  background-color:rgb(15, 21, 46) ;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   position: relative;
+   top: 1320px;
+  }
+  tr, td{
+    font-family: "poppins" serif;
+  }
+  #operations {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+  }
+  #operations tr td:empty {
+    width: 50px;
+  }
+    
+  #operations tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #operations tr {
+    text-align: left;
+    color: white;
+  }
+
+  #operations {
+    font-family: "poppins", serif;
+    
+  }
+  .logo2{
+    position: relative;
+    left: -550px;
+    top: 15px;
+  }
+
+  .footer > h3{
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    left: -620px;
+    top: -20px;
+  }
+  .footer > p{
+    font-size: 13px;
+    word-spacing: 20px;
+    position: relative;
+    top: 160px;
+    left: -45px;
+    
+  }
+  #operations{
+    position: relative;
+    top: -140px;
+    left: 400px;
+  }
+
+  hr{
+    position: relative;
+    top: -130px;
+    font-size: 20px;
+  }
+
+  .bcorp{
+    position: relative;
+    top: -370px;
+    left: 400px;
+    
+  }
+  .footer > .reserved{
+    position: relative;
+    font-size: small;
+    top: -118px;
+    left: -535px;
+   color:white;
+   word-spacing: 1px;
+  }
+
+  .footer > .proud{
+    position: relative;
+    font-size: 12px;
+    top: -360px;
+    left: 400px;
+    color:white;
+    word-spacing:1px;
+  }
+
+  .fa-linkedin{
+    color:#00E6B8 ;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+  .fa-square-facebook{
+    color:#00E6B8 ;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+  .fa-instagram{
+    color:#00E6B8 ;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+  .fa-square-twitter{
+    color:#00E6B8 ;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+
+  .fa-youtube{
+    color:#00E6B8 ;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+
+  .fa-copyright{
+    position: relative;
+    color: white;
+    top: -100px;
+    left: -670px;
+    font-size: 12px;
+  }
+
+     
+    
+  
+
+
+ 
